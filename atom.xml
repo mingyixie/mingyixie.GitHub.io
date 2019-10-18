@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mingyixie.github.io</id>
     <title>Gridea</title>
-    <updated>2019-10-18T06:12:25.817Z</updated>
+    <updated>2019-10-18T10:01:07.635Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mingyixie.github.io"/>
     <link rel="self" href="https://mingyixie.github.io/atom.xml"/>
@@ -10,6 +10,33 @@
     <logo>https://mingyixie.github.io/images/avatar.png</logo>
     <icon>https://mingyixie.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[你那么优秀，一定受过伤吧]]></title>
+        <id>https://mingyixie.github.io/post/ni-na-me-you-xiu-yi-ding-shou-guo-shang-ba</id>
+        <link href="https://mingyixie.github.io/post/ni-na-me-you-xiu-yi-ding-shou-guo-shang-ba">
+        </link>
+        <updated>2019-10-18T09:56:35.000Z</updated>
+        <content type="html"><![CDATA[<p>刚刚看见一个有趣的事，网上大家总觉得腾讯厉害，觉得QQ微信占有率高，地位牢不可破，但他们员工表示：内部整天如临大敌，战战兢兢，前几天还讨论小天才电话手表会不会干掉他们。</p>
+<p>几年前彼得·汉德克来中国，在一个活动上，有个人问他：我去过奥地利，是那么美丽、安静、祥和的国家，为什么你的作品内在的紧张感却特别强烈，非常撕裂，非常绝对？彼得·汉德克回答：你去过奥地利哪儿啊？提问者：只去过维也纳。彼得·汉德克：我明白你为什么问这样的问题了。 当时在场，姑录所闻。 ​​​​</p>
+<p>睡眠是你身体最好的安全机制。它能让你在8小时内不会把事情搞砸。</p>
+<p>想起小时候一直以为那句是：“生鱼忧患，死鱼安乐” ;</p>
+<p>如果你坐下时收到令人震惊的消息时，那么一般你会站起来。如果你站着时收到令人震惊的消息，你一般就会就坐下。</p>
+<p>如果生活是一场游戏，那么丑的游戏难度会更高。</p>
+<p>专家提示：当一个女人说“你刚刚说了什么”时，不要重复你刚刚说过的话。</p>
+<p>谁也不许一大早就恨自己 / 每个人都要过自己的生活 / 每个人都要尽其所有 / 每个人都要实现自己的目标 / 谁也不许为达到目的肆无忌惮 / 谁也不许站在角落里 （彼得·汉德克《卡斯帕》）</p>
+<p>只有当你长大成人，也许只有当你有了自己的孩子，你才能完全明白你的父母在你出生以前也是充实而复杂的个体。—— 伊恩·麦克尤恩《时间中的孩子》</p>
+<p>最爱在晚饭过后，身边坐着我爱的人，他看书或看电视，我坐在一盏台灯下，身上堆着布料，两人有一搭没一搭地说着闲话，将那份对家庭的情爱，一针一针细细地透过指尖，缝进不说一句话的帘子里去。然后有一日，上班的回来了，窗口飘出了帘子等他 —— 家就成了。 —— 三毛《周末》</p>
+<p>我现在觉得，自由并不是拥有权力、家财万贯、闻名遐迩或是无拘无束，而是能够去爱。哪怕仅仅只有一瞬间，忘我地去深爱一个人，那就是自由。 ——珍妮特·温特森《激情》</p>
+<p>“知道世界上有人的想法和自己截然相反，而且拒绝改变，这一点对理解自身处境非常有帮助。如果没有网络，一个人很可能要到别人往自己身上撒孜然才会觉得情况不对”</p>
+<p>我建议程序员们如果硬盘比较大，可以多装一些adobe的软件，试用版就行。原因你可能猜不到<br>
+…<br>
+…<br>
+…<br>
+…<br>
+…</p>
+<p>万一当你不小心输入 rm -rf / 的时候，它们能帮你扛20~30秒。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://mingyixie.github.io/post/hello-gridea</id>
