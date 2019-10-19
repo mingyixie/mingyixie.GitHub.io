@@ -1,18 +1,15 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>你那么优秀，一定受过伤吧 | 明怿的博客</title>
 <meta name="description" content="温故而知新 循序渐进">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://mingyixie.github.io/favicon.ico?v=1571463222436">
+<link rel="shortcut icon" href="https://mingyixie.github.io/favicon.ico?v=1571463413677">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://mingyixie.github.io/styles/main.css">
 
@@ -21,72 +18,85 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://mingyixie.github.io">
-        <img class="avatar" src="https://mingyixie.github.io/images/avatar.png?v=1571463222436" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://mingyixie.github.io">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://mingyixie.github.io">
+        <img src="https://mingyixie.github.io/images/avatar.png?v=1571463413677" class="site-logo">
         <h1 class="site-title">明怿的博客</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="menu purple-link">
+          <a href="/post/about" class="site-nav">
             关于
           </a>
         
       
     </div>
   </div>
-</transition>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新 循序渐进
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://mingyixie.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">你那么优秀，一定受过伤吧</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-10-18</span>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">你那么优秀，一定受过伤吧</h2>
+            <div class="post-date">2019-10-18</div>
             
-          </div>
-          <div class="post-content">
-            <p>刚刚看见一个有趣的事，网上大家总觉得腾讯厉害，觉得QQ微信占有率高，地位牢不可破，但他们员工表示：内部整天如临大敌，战战兢兢，前几天还讨论小天才电话手表会不会干掉他们。</p>
+            <div class="post-content">
+              <p>刚刚看见一个有趣的事，网上大家总觉得腾讯厉害，觉得QQ微信占有率高，地位牢不可破，但他们员工表示：内部整天如临大敌，战战兢兢，前几天还讨论小天才电话手表会不会干掉他们。</p>
 <p>几年前彼得·汉德克来中国，在一个活动上，有个人问他：我去过奥地利，是那么美丽、安静、祥和的国家，为什么你的作品内在的紧张感却特别强烈，非常撕裂，非常绝对？彼得·汉德克回答：你去过奥地利哪儿啊？提问者：只去过维也纳。彼得·汉德克：我明白你为什么问这样的问题了。 当时在场，姑录所闻。 ​​​​</p>
 <p>睡眠是你身体最好的安全机制。它能让你在8小时内不会把事情搞砸。</p>
 <p>想起小时候一直以为那句是：“生鱼忧患，死鱼安乐” ;</p>
@@ -106,43 +116,32 @@
 …</p>
 <p>万一当你不小心输入 rm -rf / 的时候，它们能帮你扛20~30秒。</p>
 
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://mingyixie.github.io/post/hello-gridea">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
           </div>
+
         </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://mingyixie.github.io/post/hello-gridea">
-              <h3 class="post-title">
-                下一篇：Hello Gridea
-              </h3>
-            </a>
-          </div>
-          
       </div>
-
-      
-
-      <div class="site-footer">
-  <div class="slogan">温故而知新 循序渐进</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://mingyixie.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
 
 hljs.initHighlightingOnLoad()
 
